@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="297dp"
+        android:layout_marginRight="297dp"
+        android:text="Demo on SLQLITE"
+        android:textColor="@color/colorAccent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etname"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginTop="59dp"
+        android:background="#D3D3D3"
+        android:hint="Enter Name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etsalary"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginTop="122dp"
+        android:background="#D3D3D3"
+        android:hint="Enter Salary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnInsert"
+        android:layout_width="60dp"
+        android:layout_height="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="213dp"
+        android:layout_marginEnd="176dp"
+        android:layout_marginRight="176dp"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:text="Insert"
+        android:textColor="#ffffff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="60dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/btnInsert"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="278dp"
+        android:layout_marginEnd="176dp"
+        android:layout_marginRight="176dp"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:text="Update"
+        android:textColor="#ffffff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnSelect"
+        android:layout_width="60dp"
+        android:layout_height="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="339dp"
+        android:layout_marginEnd="176dp"
+        android:layout_marginRight="176dp"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:text="Select"
+        android:textColor="#ffffff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="60dp"
+        android:layout_height="20dp"
+        android:layout_alignStart="@+id/btnSelect"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="434dp"
+        android:layout_marginEnd="176dp"
+        android:layout_marginRight="176dp"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:text="Delete"
+        android:textColor="#ffffff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_alignLeft="@+id/btnSelect" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
